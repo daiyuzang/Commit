@@ -1,0 +1,63 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  height: 55px;
+  width: 100%;
+  background: #24292E;
+}
+header .wapper {
+  width: 70%;
+  height: inherit;
+  margin: auto;
+}
+header .wapper .logo .octicon {
+  margin-top: 12px;
+  float: left;
+  color: #fff;
+  fill: currentColor;
+}
+header .wapper .logo .leetcode {
+  display: none;
+  float: left;
+  font-size: 18px;
+  line-height: 55px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+header .wapper .logo .leetcode a {
+  color: #C8C9CB;
+  text-decoration: none;
+}
+header .wapper .logo .github {
+  float: left;
+  font-size: 18px;
+  line-height: 55px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+header .wapper .logo .github a {
+  color: #C8C9CB;
+  text-decoration: none;
+}
+header .wapper .username span {
+  float: right;
+  color: white;
+  font-size: 18px;
+  line-height: 55px;
+}
+header .wapper .username p {
+  float: right;
+  color: #C8C9CB;
+  font-size: 18px;
+  line-height: 55px;
+  margin-left: 10px;
+}
+.wapper .logo .github:hover ~ .leetcode {
+  display: block;
+}
+.wapper .logo .leetcode:hover {
+  display: block;
+}
+/*# sourceMappingURL=project1.css.map */
