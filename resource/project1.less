@@ -2,65 +2,74 @@
 	padding: 0px;
 	margin: 0px;
 }
-header{
-	height: 55px;
+body{
+	height: 755px;
 	width: 100%;
-	background: #24292E;
-	.wapper{
-		width: 70%;
-		height: inherit;
-		margin: auto; 
-		.logo{
-			.octicon{
-				margin-top: 12px;
-				float: left;
-				color: #fff;
-				fill: currentColor;
-			}
-			.leetcode{
-				display: none;
-				float: left;
-				font-size: 18px;
-				line-height: 55px;
-				padding-left: 20px;
-				cursor: pointer;
-				a{
-					color: #C8C9CB;
-					text-decoration: none;
+	header{
+		height: 55px;
+		width: 100%;
+		background: #24292E;
+		.wapper{
+			width: 70%;
+			height: inherit;
+			margin: auto; 
+			.logo{
+				.octicon{
+					margin-top: 12px;
+					float: left;
+					color: #fff;
+					fill: currentColor;
 				}
-			}
-			.github{
-				float: left;
-				font-size: 18px;
-				line-height: 55px;
-				margin-left: 10px;
-				cursor: pointer;
-				a{
-					color: #C8C9CB;
-					text-decoration: none;
+				.leetcode{
+					display: none;
+					float: left;
+					font-size: 18px;
+					line-height: 55px;
+					padding-left: 20px;
+					cursor: pointer;
+					a{
+						color: #C8C9CB;
+						text-decoration: none;
+					}
+				}
+				.github{
+					float: left;
+					font-size: 18px;
+					line-height: 55px;
+					margin-left: 10px;
+					cursor: pointer;
+					a{
+						color: #C8C9CB;
+						text-decoration: none;
+						
+					}
 					
 				}
-				
+			}
+			.username{
+				span{
+					float: right;
+					color: white;
+					font-size: 18px;
+					line-height: 55px;
+				}
+				p{
+					float: right;
+					color: #C8C9CB;
+					font-size: 18px;
+					line-height: 55px;
+					margin-left: 10px;
+				}
 			}
 		}
-		.username{
-			span{
-				float: right;
-				color: white;
-				font-size: 18px;
-				line-height: 55px;
-			}
-			p{
-				float: right;
-				color: #C8C9CB;
-				font-size: 18px;
-				line-height: 55px;
-				margin-left: 10px;
-			}
-		}
+			
 	}
-		
+	.line-chart{
+		width: 75%;
+		height: 70%;
+	}
 }
+	
 .wapper .logo .github:hover~ .leetcode{
 	display: block;
 }

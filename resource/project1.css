@@ -2,23 +2,27 @@
   padding: 0px;
   margin: 0px;
 }
-header {
+body {
+  height: 755px;
+  width: 100%;
+}
+body header {
   height: 55px;
   width: 100%;
   background: #24292E;
 }
-header .wapper {
+body header .wapper {
   width: 70%;
   height: inherit;
   margin: auto;
 }
-header .wapper .logo .octicon {
+body header .wapper .logo .octicon {
   margin-top: 12px;
   float: left;
   color: #fff;
   fill: currentColor;
 }
-header .wapper .logo .leetcode {
+body header .wapper .logo .leetcode {
   display: none;
   float: left;
   font-size: 18px;
@@ -26,33 +30,37 @@ header .wapper .logo .leetcode {
   padding-left: 20px;
   cursor: pointer;
 }
-header .wapper .logo .leetcode a {
+body header .wapper .logo .leetcode a {
   color: #C8C9CB;
   text-decoration: none;
 }
-header .wapper .logo .github {
+body header .wapper .logo .github {
   float: left;
   font-size: 18px;
   line-height: 55px;
   margin-left: 10px;
   cursor: pointer;
 }
-header .wapper .logo .github a {
+body header .wapper .logo .github a {
   color: #C8C9CB;
   text-decoration: none;
 }
-header .wapper .username span {
+body header .wapper .username span {
   float: right;
   color: white;
   font-size: 18px;
   line-height: 55px;
 }
-header .wapper .username p {
+body header .wapper .username p {
   float: right;
   color: #C8C9CB;
   font-size: 18px;
   line-height: 55px;
   margin-left: 10px;
+}
+body .line-chart {
+  width: 75%;
+  height: 70%;
 }
 .wapper .logo .github:hover ~ .leetcode {
   display: block;
