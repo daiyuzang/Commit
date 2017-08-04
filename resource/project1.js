@@ -17,7 +17,7 @@ var config = {
 	},
 	options: {
 		responsive: true,
-		legend: {//图例样式
+		legend: {//图例样式！！！！！没找到！！！
 			position: 'bottom',
 			labels: {
 				fontColor: "red"
