@@ -23,7 +23,7 @@ var config = {
 				fontColor: "red"
 			}
 		},
-		hover: {
+		hover: {//全局hover，需要单点的hover状态
 			onHover: showDetail
 		},
 		scales: {
